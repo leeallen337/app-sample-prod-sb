@@ -18,6 +18,9 @@ function Text(props) {
       <p>
         { text.get('text') }
       </p>
+      <button onClick={actions.text.getText}>
+        Get text
+      </button>
     </div>
   );
 }
