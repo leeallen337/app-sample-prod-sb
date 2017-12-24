@@ -19,7 +19,7 @@ function Text(props) {
         { text.get('text') }
       </p>
       <button onClick={actions.text.getText}>
-        Get text
+        Get text from heroku
       </button>
     </div>
   );
